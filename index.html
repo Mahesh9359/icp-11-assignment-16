@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="../styles/styles.css">
+    <title>CSS Positioning</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">CSS Positions</a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="pages/login.html" class="btn btn-outline">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">Master CSS Positioning</h1>
+            <p class="hero-text">Learn how to properly use static, relative, absolute, fixed and sticky positioning in
+                your projects.</p>
+            <a href="#features" class="btn btn-primary">Explore Features</a>
+        </div>
+    </header>
+    <section id="features" class="section features">
+        <div class="container">
+            <h2 class="section-title">Our Features</h2>
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="feature-title">Static Positioning</h3>
+                    <p class="feature-text">Default positioning behavior in normal document flow.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-arrows-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Relative Positioning</h3>
+                    <p class="feature-text">Positioned relative to its normal position with offset properties.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="feature-title">Absolute Positioning</h3>
+                    <p class="feature-text">Positioned relative to nearest positioned ancestor.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-thumbtack"></i>
+                    </div>
+                    <h3 class="feature-title">Fixed Positioning</h3>
+                    <p class="feature-text">Positioned relative to viewport, stays fixed during scrolling.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-pin"></i>
+                    </div>
+                    <h3 class="feature-title">Sticky Positioning</h3>
+                    <p class="feature-text">Hybrid of relative and fixed - sticks when scrolling past it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section demo-section">
+        <div class="container">
+            <h2 class="section-title">Position Property Demo</h2>
+            <div class="demo-container">
+                <div class="position-box static">Static</div>
+                <div class="position-box relative">Relative</div>
+                <div class="position-box absolute">Absolute</div>
+                <div class="position-box fixed">Fixed</div>
+                <div class="position-box sticky">Sticky</div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
